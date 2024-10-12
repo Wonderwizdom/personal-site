@@ -25,20 +25,28 @@
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 50px;
+  border-color: #63838f;
   background: linear-gradient(300deg, #000000, #171e1e, #111827);
   background-size: 180% 180%;
   animation: gradient-animation 10s ease infinite;
-  box-shadow: 5px 5px;
+  box-shadow: 15px 15px #3e4354;
 
 
 }
 
-
-
-.resume{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #181a1d;
-    color: rgb(211, 211, 211);
-    padding-left: 4px;
+@media(max-width: 1000px){
+  .responsiveimage{
+    display: none;
+  }
 }
 
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+#linkedin{
+  text-align: center;
+  padding-bottom: 35px;
+}
